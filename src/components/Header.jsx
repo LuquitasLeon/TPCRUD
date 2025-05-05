@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Navbar, Container } from 'react-bootstrap';
+import '../styles/HeaderStyle.css'
 
 const Header = () => {
-    return (
-        <div>
+  return (
+    <Navbar className="custom-header" expand="lg">
+      <Container className="justify-content-center">
+        <Navbar.Brand className="text-center">🚀 Bienvenido</Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+};
 
-            Este es el header
-
-        </div>
-    )
-}   
-
-export default Header
+export default Header;

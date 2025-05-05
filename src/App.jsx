@@ -1,13 +1,10 @@
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
-import './App.css'
-import { HOME, LOGIN, CREAR, EDITAR, MOSTRAR } from './routes/routes'
-
+import { HOME, LOGIN, CREAR, EDITAR } from './routes/routes'
+import './styles/AppStyle.css'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
-import CrearPage from './pages/CreateClientePage'
-import EditarPage from './pages/EditClientePage'
-import VerPage from './pages/VerPage'
-
+import CrearPage from './pages/CrearUsuarioPage'
+import EditarPage from './pages/EditarPage'
 
 
 function App() {
@@ -18,8 +15,7 @@ function App() {
         <Routes>
           <Route path={HOME} element={<HomePage />} />
           <Route path={CREAR} element={<CrearPage />} />
-          <Route path={EDITAR} element={<EditarPage />} />
-          <Route path={MOSTRAR} element={<VerPage />} />
+          <Route path={`${EDITAR}/:id`} element={<EditarPage />} />
           <Route path={LOGIN} element={<LoginPage />} />
         </Routes>
       </BrowserRouter>

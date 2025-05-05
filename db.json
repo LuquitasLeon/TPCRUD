@@ -1,9 +1,24 @@
 {
   "usuario": [
     {
-      "id": "2",
-      "nombre": "Jose",
-      "contraseña": "admin"
+      "nombre": "Jose1",
+      "contraseña": "admin",
+      "id": "2"
+    },
+    {
+      "nombre": "Algo123",
+      "contraseña": "algo",
+      "id": "6eab"
+    },
+    {
+      "nombre": "Pedrope",
+      "contraseña": "1234",
+      "id": "7ce9"
+    },
+    {
+      "id": "3246",
+      "nombre": "Minguito",
+      "contraseña": "1234"
     }
   ]
 }

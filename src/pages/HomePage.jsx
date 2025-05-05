@@ -1,5 +1,5 @@
 import React from 'react'
-import TablaCliente from '../components/CRUD/TablaCliente'
+import TablaUsuario from '../components/CRUD/TablaUsuario'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
         
         <Header />
-        <TablaCliente />
+        <TablaUsuario />
         <Footer />
 
     </div>

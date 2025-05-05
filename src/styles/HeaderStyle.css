@@ -1,0 +1,12 @@
+.custom-header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    padding: 20px 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-header .navbar-brand {
+    color: #fff !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+}

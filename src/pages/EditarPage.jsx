@@ -1,16 +1,16 @@
 import React from 'react'
-import ClienteEdit from '../components/CRUD/ClienteEdit'
+import EditUsuario from '../components/CRUD/EditUsuario'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const EditCliente = () => {
+const EditarPage = () => {
   return (
     <div>
         <Header />
-        <ClienteEdit />
+        <EditUsuario />
         <Footer />
     </div>
   )
 }
 
-export default EditCliente
+export default EditarPage
